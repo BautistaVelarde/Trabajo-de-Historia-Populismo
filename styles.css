@@ -1,0 +1,230 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Courgette&family=Lexend+Deca:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Caveat&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fauna+One&display=swap');
+body{
+    margin:0;
+    display:grid;
+    grid-template-columns:repeat(3,1fr);
+    grid-template-rows:repeat(19,1fr);
+    
+}
+@media screen and (max-width:480px) {
+    header{
+        grid-column:1/-1;
+        grid-row:1/2;
+    }
+    nav{
+        grid-column:1/-1;
+        grid-row:2/4;
+        text-align:center;
+    }
+    section{
+        grid-column:1/-1;
+        grid-row:4/5;
+    }
+    .mateos{
+        grid-column:1/-1;
+        grid-row:5/8;
+    }
+    .mauricio{
+        grid-column:1/-1;
+        grid-row:9/11;
+    }
+    .mateoa{
+        grid-column:1/-1;
+        grid-row:12/14;
+    }
+    .bautista{
+        grid-column:1/-1;
+        grid-row:15/17;
+    }
+    .imgf{
+        grid-column:1/-1;
+        grid-row:17/18;
+
+    }
+    .about{
+        grid-column:1/-1;
+        grid-row:18/19;
+    }
+}
+header{
+    position:relative;
+    background-color:beige;
+    background-size:auto;
+    text-align: center;
+    font-family: 'Caveat', cursive;
+    font-size:4.7vw;
+}
+.imgdiosito{
+    position:absolute;
+    background-image:url(resourses/diosito.png);
+    background-size: cover;
+    width:20vw;
+    height:20vw;
+    top:55%;
+}
+header h1{
+    margin-bottom:0.2em;
+    text-shadow:1px 1px white;
+}
+header h2{
+    font-family: 'Caveat', cursive;
+    margin-top:0.2em;
+    text-shadow:1px 1px white;
+}
+
+nav{
+    text-align:center;
+    font-size:4vw;
+    font-family: 'Courgette', cursive;
+    font-family: 'Lexend Deca', sans-serif;
+    padding:1em 3em;
+    background-color:rgba(128, 128, 128, 0.292);
+    margin-top:1em;
+    box-shadow: 0px 0px 5vw #D2E0FB;
+}
+
+section{
+    margin:1.5em;
+    margin:auto;
+}
+section a{
+    font-size:5vw;
+    color:white;
+    padding:3vw;
+    background-color:#176B87;
+    border-radius:0.5em;
+    font-family: 'Caveat', cursive;
+}
+.mateos{
+   position:relative;
+}
+.mateos{
+   
+    background-color:rgba(128, 128, 128, 0.292);
+    text-align: center;
+    padding:2em;
+    padding-top:3em;
+    margin-top:40vw;
+    box-shadow: 0px 0px 5vw #D2E0FB;
+}
+.mateos p{
+    font-family: 'Fauna One', serif;
+    font-size:3.3vw;
+    
+}
+.imgmateos{
+    position:absolute;
+    background-image:url(resourses/mateos.jpg);
+    width:20vw;
+    height:20vw;
+    background-size:35vw;
+    border-radius:50%;
+    background-position:52% 10%;
+    top:-12%;
+    left:40%;
+    box-shadow:0px 0px 3vw;
+}
+
+.mauricio{
+    background-color:rgba(128, 128, 128, 0.292);
+    text-align:center;
+    position:relative;
+    box-shadow: 0px 0px 5vw #D2E0FB;
+}
+.mauricio p{
+    font-family: 'Fauna One', serif;
+    font-size:3.3vw;
+    padding:2em;
+    padding-top:3em;
+}
+.imgmauricio{
+    position:absolute;
+    background-image:url(resourses/mauricio.jpeg);
+    width:20vw;
+    height:20vw;
+    background-size:20vw;
+    border-radius:50%;
+    background-position:52% 50%;
+    top:-12%;
+    left:40%;
+    box-shadow:0px 0px 3vw;
+}
+
+.mateoa{
+    background-color:rgba(128, 128, 128, 0.292);
+    text-align:center;
+    position:relative;
+    box-shadow: 0px 0px 5vw #D2E0FB;
+}
+.mateoa p{
+    font-family: 'Fauna One', serif;
+    font-size:3.3vw;
+    padding:2em;
+    padding-top:3em;
+}
+.imgmateoa{
+    position:absolute;
+    background-image:url(resourses/mateoa.jpg);
+    width:20vw;
+    height:20vw;
+    background-size:20vw;
+    border-radius:50%;
+    background-position:52% 50%;
+    top:-12%;
+    left:40%;
+    box-shadow:0px 0px 3vw;
+}
+
+.bautista{
+    text-align:center;
+    position:relative;
+    background-color:rgba(128, 128, 128, 0.292);
+    height:70vw;
+    box-shadow: 0px 0px 5vw #D2E0FB;
+}
+.bautista p{
+    font-family: 'Fauna One', serif;
+    font-size:3.3vw;
+    padding:2em;
+    padding-top:4em;
+}
+.imgbautista{
+    position:absolute;
+    background-image:url(resourses/bautista.jpeg);
+    width:20vw;
+    height:20vw;
+    background-size:25vw;
+    border-radius:50%;
+    background-position:52% 10%;
+    top:-12%;
+    left:40%;
+    box-shadow:0px 0px 3vw;
+}
+.imgf{
+    background-image:url(resourses/luisyjose.png);
+    background-size:90vw;
+    background-repeat:no-repeat;
+    
+}
+.about{
+    display:flex;
+    align-items: center;
+    justify-content: center;
+}
+.about a{
+    padding:5vw;
+    font-size:6vw;
+    color:white;
+    text-decoration: none;
+    border-radius:1em;
+    background-color:#176B87;
+    box-shadow:0px 0px 5vw #6499E9;
+    font-family: 'Caveat', cursive;
+}
+
+html{
+    scroll-behavior: smooth;
+}
